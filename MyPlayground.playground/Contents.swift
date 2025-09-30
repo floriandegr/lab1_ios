@@ -86,6 +86,14 @@ struct Iphone {
     var height: Double
     var width : Double
     
+    init(){
+        type = ""
+        height = 0
+        width = 0
+    }
+    
+    
+    
+    
 }
-let iphone = Iphone(type: "", height: 0.0, width: 0.0)
-
+let iphone = Iphone()
